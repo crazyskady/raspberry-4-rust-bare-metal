@@ -1,0 +1,10 @@
+[package]
+name = "uart_01"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+raspi4_boot = { path = "raspi4_boot" }
+tock-registers = "0.7.0"
